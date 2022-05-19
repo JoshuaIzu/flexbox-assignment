@@ -1,0 +1,67 @@
+ :root{
+     background-color: skyblue;
+ }
+#box1, #box2 {
+    background-color: blue;
+    color: #fff;
+    display:flex;
+}
+#box1{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+p{
+    font-size: 15px;
+    
+}
+#box2{
+    align-content: flex-end;
+    margin-bottom: 20px;
+}
+
+
+    
+flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+
+    
+}
+
+.box22{
+    width: 250px;
+    height: 200px;
+    background: blue;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    white-space: wrap;
+    line-height: 200px;
+    border-radius: 12px;
+    margin: 10px;
+    align-items: center;
+    padding-top: 25px;  
+    display: flex;
+    align-content:center;
+    justify-content: center;
+} 
+section{
+    background-color: skyblue;
+    
+}
+body{
+    background-size: auto;
+    background-color: skyblue;
+}
+}
+    
+
+    
